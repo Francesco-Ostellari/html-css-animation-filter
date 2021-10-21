@@ -120,7 +120,7 @@
     font-size: 60px;
 }
 
-.ex-11-icon {
+.ex-11-icon:hover {
     animation-name: ruota-11;
     animation-duration: 1000ms;
     animation-timing-function: linear;
@@ -168,7 +168,7 @@
     height: 20px;
 }
 
-.ex-12-button {
+.ex-12-button:hover {
     animation-name: ruota-12;
     animation-duration: 1000ms;
     animation-timing-function: linear;
@@ -186,7 +186,7 @@
     }
 }
 
-.ex-13-button {
+.ex-13-button:hover {
     animation-name: ruota-13;
     animation-duration: 1000ms;
     animation-timing-function: linear;

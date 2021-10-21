@@ -169,23 +169,22 @@
 }
 
 .ex-12-button:hover {
-    animation-name: ruota-12;
+    animation-name: muovi-12;
     animation-duration: 1000ms;
     animation-timing-function: linear;
 }
 
-@keyframes ruota-12 {
-    0% { 
-        transform:rotate(0deg);
+@keyframes muovi-12 {
+    0% {
+        right: 20%;
     }
     30% {
-        transform:rotate(275deg);
+        right: calc(100% - 60px);
     }
     100% {
-        transform: rotate(0deg);
+        right: 20%;
     }
 }
-
 .ex-13-button:hover {
     animation-name: ruota-13;
     animation-duration: 1000ms;

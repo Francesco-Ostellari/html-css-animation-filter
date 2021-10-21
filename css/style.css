@@ -168,12 +168,9 @@
     height: 20px;
 }
 
-.ex-12-button:hover {
-    animation-name: muovi-12;
-    animation-duration: 1000ms;
-    animation-timing-function: linear;
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: muovi-12 2s linear;
 }
-
 @keyframes muovi-12 {
     0% {
         right: 20%;
@@ -185,17 +182,33 @@
         right: 20%;
     }
 }
-.ex-13-button:hover {
-    animation-name: ruota-13;
-    animation-duration: 1000ms;
-    animation-timing-function: linear;
-}
 
-@keyframes ruota-13 {
-    0% { 
-        transform:rotate(0deg);
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: muovi-13 2s linear;
+}
+@keyframes muovi-13 {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    30% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    45% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75% {
+        left: 0;
+        top: 100%;
+    }
+    90% {
+        left: -15px;
+        top: -10px;
     }
     100% {
-        transform:rotate(360deg);
+        left: 10%;
+        top: -10px;
     }
-}
